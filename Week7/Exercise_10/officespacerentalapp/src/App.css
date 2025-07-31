@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+.office-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px; /* Adds space between office cards */
+}
+
+.office-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.office-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+h1, h2, h3 {
+  margin: 10px 0;
+}
